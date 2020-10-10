@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const config = require('./config.json')
 
-const command = requir e('./command')
+const command = require('./command')
 client.on('ready', () => {
   console.log('The client is ready')
   // if a certain command is received, do THIS
